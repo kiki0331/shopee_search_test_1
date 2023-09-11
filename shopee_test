@@ -25,4 +25,10 @@ search_buttom_xpath = "//button[contains(@class ,'btn-solid-primary')]"
 search_buttom = driver.find_element(By.XPATH,search_buttom_xpath)
 search_buttom.click()
 time.sleep(5)
+product_xpath = "//div[@class ='FDn--+']"
+product = driver.find_element(By.XPATH,product_xpath)
+price_xpath = "//div[@class ='hpDKMN']"
+price = driver.find_element(By.XPATH,price_xpath)
+
 driver.close()
+print("test")
